@@ -8,6 +8,7 @@
 <link rel="icon" href="/assets/favicon.svg">
 <link rel="stylesheet" href="/styles.css">
 </head>
+
 <body>
 <div class="topbar">
   <div class="container">
@@ -40,36 +41,37 @@
   <div class="container two">
     <div>
       <h2>TRUECARE PROPERTY SOLUTIONS LLC</h2>
+
       <p><strong>Address:</strong><br>349 Woodland Creek Blvd<br>Kissimmee, FL 34744</p>
       <p><strong>Phone:</strong> (646) 287-8393</p>
       <p><strong>Email:</strong> info.truecareps@gmail.com</p>
 
       <div class="notice">
-        <strong>SMS Notice:</strong> We use SMS for Customer Care communications related to service requests, appointment scheduling, inspection updates, service status notifications, and customer support. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. SMS consent is not shared with third parties or affiliates for marketing purposes. Please review our <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms-and-conditions/">Terms of Service</a>.
+        <strong>SMS Notice:</strong> We use SMS for Customer Care communications related to service requests, appointment scheduling, inspection updates, service status notifications, and customer support. Messaging frequency may vary. Message & data rates may apply. Reply STOP to opt out or HELP for assistance. SMS consent is not shared with third parties or affiliates for marketing purposes. Please review our <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms-and-conditions/">Terms of Service</a>.
       </div>
     </div>
 
     <div class="formbox">
       <form>
-        <label>Name</label>
-        <input type="text" placeholder="Your name">
+        <label for="contact-name">Name</label>
+        <input type="text" id="contact-name" name="name" placeholder="Your name">
 
-        <label>Email</label>
-        <input type="email" placeholder="you@example.com">
+        <label for="contact-email">Email</label>
+        <input type="email" id="contact-email" name="email" placeholder="you@example.com">
 
-        <label>Phone</label>
-        <input type="tel" placeholder="Your phone number">
+        <label for="contact-phone">Phone</label>
+        <input type="tel" id="contact-phone" name="phone" placeholder="Your phone number">
 
-        <label>Service Type</label>
-        <input type="text" placeholder="Inspection, lawn care, repair, securing, etc.">
+        <label for="service-type">Service Type</label>
+        <input type="text" id="service-type" name="service_type" placeholder="Inspection, lawn care, repair, securing, etc.">
 
-        <label>Message</label>
-        <textarea placeholder="How can we help?"></textarea>
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" placeholder="How can we help?"></textarea>
 
         <div class="checkboxrow">
-          <input type="checkbox" id="sms-consent-contact">
+          <input type="checkbox" id="sms-consent-contact" name="sms_consent" value="yes">
           <label for="sms-consent-contact" style="margin:0">
-            By checking this box, I consent to receive Customer Care SMS messages from TRUECARE PROPERTY SOLUTIONS LLC regarding service requests, appointment scheduling, inspection updates, service status notifications, and customer support. Reply STOP to opt-out; Reply HELP for support; Message & data rates may apply; Messaging frequency may vary. Visit <a href="/privacy-policy/">Privacy Policy</a> to see our privacy policy and <a href="/terms-and-conditions/">Terms of Service</a> for our Terms of Service.
+            By checking this box, I consent to receive Customer Care text messages from TRUECARE PROPERTY SOLUTIONS LLC regarding service requests, appointment scheduling, inspection updates, service status notifications, and customer support. Reply STOP to opt-out; Reply HELP for support; Message &amp; data rates may apply; Messaging frequency may vary. Visit <a href="/privacy-policy/">Privacy Policy</a> to see our privacy policy and <a href="/terms-and-conditions/">Terms of Service</a> for our Terms of Service.
             <br>
             <span class="small">This SMS consent checkbox is optional, unchecked by default, and separate from email, phone call, and general website consent. SMS consent is not shared with third parties or affiliates for marketing purposes.</span>
           </label>
