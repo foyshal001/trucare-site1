@@ -1,34 +1,22 @@
-TRUECARE PROPERTY SOLUTIONS LLC Website
+TRUECAREPS WORKING FORM WEBSITE
 
-Pages included:
-- /
-- /services/
-- /privacy-policy/
-- /terms-and-conditions/
-- /contact/
+Upload ALL files and the assets folder to GitHub root:
+- index.html
+- services.html
+- privacy-policy.html
+- terms-and-conditions.html
+- contact.html
+- thank-you.html
+- styles.css
+- assets/logo.jpg
 
-How to add your logo:
-1. Replace assets/logo.svg with your own logo file.
-2. If your logo is PNG/JPG, upload it as assets/logo.png.
-3. In all HTML files, change /assets/logo.svg to /assets/logo.png.
+The contact form now submits through FormSubmit to:
+info.truecareps@gmail.com
 
-Vercel deployment:
-1. Go to https://vercel.com and log in.
-2. Create New Project.
-3. Choose "Continue with GitHub" if using GitHub, OR install Vercel CLI for direct upload.
-4. Easiest method: create a GitHub repository named truecareps-site.
-5. Upload all files from this folder to the repository.
-6. In Vercel, import the repository.
-7. Set project name to truecareps.
-8. Deploy.
-9. Your site should be available at https://truecareps.vercel.app if that subdomain is available.
+IMPORTANT:
+After first test submission, FormSubmit may send a confirmation email to info.truecareps@gmail.com. Click the confirmation link once.
 
 RingCentral URLs:
-Privacy Policy:
-https://truecareps.vercel.app/privacy-policy/
-
-Terms & Conditions:
-https://truecareps.vercel.app/terms-and-conditions/
-
-Contact/SMS Consent Form:
-https://truecareps.vercel.app/contact/
+Opt-in form: https://truecareps.vercel.app/contact.html
+Privacy Policy: https://truecareps.vercel.app/privacy-policy.html
+Terms: https://truecareps.vercel.app/terms-and-conditions.html
